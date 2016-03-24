@@ -12,6 +12,7 @@ body {
     width: 100%;
     font-family: Arial, sans-serif;
     background-color: white;
+    overflow: auto;
 }
 
 
@@ -31,7 +32,7 @@ header {
     right: 0;
 }
 
-header div h1 {
+h1 {
     position: absolute;
     top: 36px;
     left: 10px;
