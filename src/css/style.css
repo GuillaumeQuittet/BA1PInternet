@@ -68,7 +68,7 @@ header ul li a {
     border-radius: 2px;
 }
 
-header ul li a:hover, header ul il a:focus {
+header ul li a:hover, header ul li a:focus {
     background-color: #006600;
 }
 
