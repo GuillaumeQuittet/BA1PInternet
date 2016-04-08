@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-y: scroll;
+}
+
+header {
+    padding: 15px;
+    background-color: #74AFAD;
+    color: white;
+}
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+    text-shadow: 4px 4px 10px #1b2c2b;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    background-color: #558C89;
+    color: white;
+    font-size: 1.3em;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    -webkit-transition: max-height 0.8s;
+    -moz-transition: max-height 0.8s;
+    -o-transition: max-height 0.8s;
+    transition: max-height 0.8s;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 10px #1b2c2b;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+}
+
+nav ul li:hover {
+    background-color: #74AFAD;
+}
+
+nav ul ul {
+    position: absolute;
+    left: -9999em;
+}
+
+content {
+    display: block;
+    padding: 1% 20%;
+    line-height: 1.5em;
+    word-spacing: .5em;
+}
+
+content p {
+    text-align: justify;
+}
+
+.menu-button {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        text-align: left;
+        overflow: hidden;
+        max-height: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    nav ul li:hover {
+        background-color: #558C89;
+    }
+
+    .menu-button {
+        display: block;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px;
+        background-color: #385c5a;
+        cursor: pointer;
+    }
+
+    content {
+        padding: 0 10%;
+    }
+
+    .menu-button:hover + ul {
+        max-height: 20em;
+    }
+
+}
