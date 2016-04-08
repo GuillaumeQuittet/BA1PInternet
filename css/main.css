@@ -69,7 +69,8 @@ content p {
     text-align: justify;
 }
 
-.menu-button {
+nav input[type=checkbox],
+nav label {
     display: none;
 }
 
@@ -102,7 +103,7 @@ content p {
         background-color: #558C89;
     }
 
-    .menu-button {
+    nav label {
         display: block;
         width: 100%;
         -webkit-box-sizing: border-box;
@@ -110,14 +111,15 @@ content p {
         box-sizing: border-box;
         padding: 10px;
         background-color: #385c5a;
-        cursor: pointer;
+        font-weight: bold;
+        text-shadow: 1px 1px 10px #1b2c2b;
     }
 
     content {
         padding: 0 10%;
     }
 
-    .menu-button:hover + ul {
+    input[type=checkbox]:checked ~ ul {
         max-height: 20em;
     }
 
