@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    margin: 86px 0 0 0;
+    margin: 82px 0 0 0;
     padding: 15px;
     background-color: #74AFAD;
     color: white;
@@ -39,6 +39,7 @@ nav span.site-name {
     text-shadow: 1px 1px 10px #1b2c2b;
     border-radius: 5px;
     background-color: #8c5558;
+    cursor: pointer;
 }
 
 nav ul {
@@ -57,6 +58,7 @@ nav ul li {
     padding: 20px;
     border-radius: 5px;
     text-shadow: 1px 1px 10px #1b2c2b;
+    cursor: pointer;
     -webkit-transition: background-color 0.4s;
     -moz-transition: background-color 0.4s;
     -o-transition: background-color 0.4s;
@@ -91,7 +93,7 @@ nav label {
 @media screen and (max-width: 1024px) {
     
     header {
-        margin: 62px 0 0 0;
+        margin: 60px 0 0 0;
         padding: 5px;
     }
 
@@ -124,7 +126,7 @@ nav label {
 @media screen and (max-width: 640px) {
 
     header {
-        margin: 41px 0 0 0;
+        margin: 45px 0 0 0;
         padding: 1px;
     }
 
