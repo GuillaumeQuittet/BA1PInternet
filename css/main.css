@@ -47,10 +47,10 @@ nav label div.menu-icon div {
         height: 3px;
         background-color: white;
         margin: 3px 0;
-        -webkit-transition: all 0.6s ease-out;
-        -moz-transition: all 0.6s ease-out;
-        -o-transition: all 0.6s ease-out;
-        transition: all 0.6s ease-out;
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        transition: all 0.4s;
 }
 
 nav ul {
