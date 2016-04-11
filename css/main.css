@@ -42,17 +42,6 @@ nav span.site-name {
     cursor: pointer;
 }
 
-nav label div.menu-icon div {
-        width: 25px;
-        height: 3px;
-        background-color: white;
-        margin: 3px 0;
-        -webkit-transition: all 0.4s;
-        -moz-transition: all 0.4s;
-        -o-transition: all 0.4s;
-        transition: all 0.4s;
-}
-
 nav ul {
     display: inline-block;
     margin: 0 auto;
@@ -61,6 +50,7 @@ nav ul {
     -webkit-transition: max-height 0.8s;
     -moz-transition: max-height 0.8s;
     -o-transition: max-height 0.8s;
+    -ms-transition: max-height 0.8s;
     transition: max-height 0.8s;
 }
 
@@ -73,6 +63,7 @@ nav ul li {
     -webkit-transition: background-color 0.4s;
     -moz-transition: background-color 0.4s;
     -o-transition: background-color 0.4s;
+    -ms-transition: background-color 0.4s;
     transition: background-color 0.4s;
 }
 
@@ -191,6 +182,18 @@ nav label {
     nav label div.menu-icon,
     nav label div.site-name {
         display: inline-block;
+    }
+
+    nav label div.menu-icon div {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 3px 0;
+        -webkit-transition: transform 0.4s;
+        -moz-transition: transform 0.4s;
+        -o-transition: transform 0.4s;
+        -ms-transition: transform 0.4s;
+        transition: transform 0.4s;
     }
 
     nav label div.site-name {
