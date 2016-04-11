@@ -189,11 +189,11 @@ nav label {
         height: 3px;
         background-color: white;
         margin: 3px 0;
-        -webkit-transition: transform 0.4s;
-        -moz-transition: transform 0.4s;
-        -o-transition: transform 0.4s;
-        -ms-transition: transform 0.4s;
-        transition: transform 0.4s;
+        -webkit-transition: all 0.8s;
+        -moz-transition: all 0.8s;
+        -o-transition: all 0.8s;
+        -ms-transition: all 0.8s;
+        transition: all 0.8s;
     }
 
     nav label div.site-name {
@@ -212,11 +212,11 @@ nav label {
 
     /* Rotate first bar */
     input[type=checkbox]:checked + label .menu-icon .bar1 {
-        -webkit-transform: translate(0, 6px) rotate(45deg);
-        -ms-transform: translate(0, 6px) rotate(45deg);
-        -o-transform: translate(0, 6px) rotate(45deg);
-        -moz-transform: translate(0, 6px) rotate(45deg);
-        transform: translate(0, 6px) rotate(45deg);
+        -webkit-transform: translate(0, 6px) rotate(315deg);
+        -ms-transform: translate(0, 6px) rotate(315deg);
+        -o-transform: translate(0, 6px) rotate(315deg);
+        -moz-transform: translate(0, 6px) rotate(315deg);
+        transform: translate(0, 6px) rotate(315deg);
     }
 
     /* Fade out the second bar */
@@ -226,10 +226,10 @@ nav label {
 
     /* Rotate last bar */
     input[type=checkbox]:checked + label .menu-icon .bar3 {
-        -webkit-transform: translate(0, -6px) rotate(-45deg);
-        -ms-transform: translate(0, -6px) rotate(-45deg);
-        -o-transform: translate(0, 6px) rotate(45deg);
-        -moz-transform: translate(0, -6px) rotate(-45deg);
-        transform: translate(0, -6px) rotate(-45deg);
+        -webkit-transform: translate(0, -6px) rotate(-315deg);
+        -ms-transform: translate(0, -6px) rotate(-315deg);
+        -o-transform: translate(0, 6px) rotate(315deg);
+        -moz-transform: translate(0, -6px) rotate(-315deg);
+        transform: translate(0, -6px) rotate(-315deg);
     }
 }
