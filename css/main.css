@@ -208,6 +208,8 @@ nav label {
     /* Rotate first bar */
     input[type=checkbox]:checked + label .menu-icon .bar1 {
         -webkit-transform: translate(0, 6px) rotate(45deg);
+        -ms-transform: translate(0, 6px) rotate(45deg);
+        -moz-transform: translate(0, 6px) rotate(45deg);
         transform: translate(0, 6px) rotate(45deg);
     }
 
@@ -219,6 +221,8 @@ nav label {
     /* Rotate last bar */
     input[type=checkbox]:checked + label .menu-icon .bar3 {
         -webkit-transform: translate(0, -6px) rotate(-45deg);
+        -ms-transform: translate(0, -6px) rotate(-45deg);
+        -moz-transform: translate(0, -6px) rotate(-45deg);
         transform: translate(0, -6px) rotate(-45deg);
     }
 }
