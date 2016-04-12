@@ -10,6 +10,8 @@ header {
     padding: 15px;
     background-color: #74AFAD;
     color: white;
+    -moz-box-shadow: 1px 1px 10px #558C89;
+    -webkit-box-shadow: 1px 1px 10px #558C89;
     box-shadow: 1px 1px 10px #558C89;
 }
 
@@ -32,6 +34,8 @@ nav {
     background-color: #558C89;
     color: white;
     font-size: 1.4em;
+    -moz-box-shadow: 1px 1px 10px #385c5a;
+    -webkit-box-shadow: 1px 1px 10px #385c5a;
     box-shadow: 1px 1px 10px #385c5a;
 }
 
@@ -179,6 +183,8 @@ nav label {
         background-color: #385c5a;
         font-weight: bold;
         text-shadow: 1px 1px 10px #1b2c2b;
+        -moz-box-shadow: 1px 1px 10px #1b2c2b;
+        -webkit-box-shadow: 1px 1px 10px #1b2c2b;
         box-shadow: 1px 1px 10px #1b2c2b;
     }
 
@@ -192,6 +198,8 @@ nav label {
         height: 3px;
         background-color: white;
         margin: 3px 0;
+        -moz-box-shadow: 1px 1px 10px #1b2c2b;
+        -webkit-box-shadow: 1px 1px 10px #1b2c2b;
         box-shadow: 1px 1px 10px #1b2c2b;
         -webkit-transition: all 0.8s;
         -moz-transition: all 0.8s;
