@@ -189,6 +189,7 @@ nav label {
         height: 3px;
         background-color: white;
         margin: 3px 0;
+        box-shadow: 1px 1px 10px #1b2c2b;
         -webkit-transition: all 0.8s;
         -moz-transition: all 0.8s;
         -o-transition: all 0.8s;
