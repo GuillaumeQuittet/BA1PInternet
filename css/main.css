@@ -10,6 +10,7 @@ header {
     padding: 15px;
     background-color: #74AFAD;
     color: white;
+    box-shadow: 1px 1px 10px #558C89;
 }
 
 h1 {
@@ -31,6 +32,7 @@ nav {
     background-color: #558C89;
     color: white;
     font-size: 1.4em;
+    box-shadow: 1px 1px 10px #385c5a;
 }
 
 nav span.site-name {
@@ -177,6 +179,7 @@ nav label {
         background-color: #385c5a;
         font-weight: bold;
         text-shadow: 1px 1px 10px #1b2c2b;
+        box-shadow: 1px 1px 10px #1b2c2b;
     }
 
     nav label div.menu-icon,
