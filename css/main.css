@@ -31,6 +31,13 @@ h1 {
     text-shadow: 4px 4px 10px #1b2c2b;
 }
 
+h2 {
+    text-align: left;
+    font-size: 2.5em;
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid black;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -74,7 +81,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    padding: 20px;
+    padding: 20px 0;
     border-radius: 5px;
     text-shadow: 1px 1px 10px #1b2c2b;
     cursor: pointer;
@@ -83,6 +90,11 @@ nav ul li {
     -o-transition: background-color 0.4s;
     -ms-transition: background-color 0.4s;
     transition: background-color 0.4s;
+}
+
+nav ul li a {
+    padding: 20px;
+    border-radius: 5px;
 }
 
 nav ul li:hover {
@@ -99,10 +111,29 @@ content {
     padding: 1% 20%;
     line-height: 1.5em;
     word-spacing: .5em;
+    background: url('../img/background.jpg');
+}
+
+content div.introduction {
+    display: block;
+}
+
+content div.introduction .intro-img {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+content div.introduction .intro-img img {
+    width: 30%;
+    padding: 5px 50px;
 }
 
 content p {
+    font-size: 1.3em;
     text-align: justify;
+    line-height: 2em;
+    word-spacing: 0.3em;
 }
 
 nav input[type=checkbox],
@@ -121,6 +152,11 @@ nav label {
         font-size: 2.3em;
     }
 
+    h2 {
+        font-size: 2em;
+        padding: 0 0 10px 0;
+    }
+
     nav {
         font-size: 1.2em;
     }
@@ -135,11 +171,19 @@ nav label {
     }
 
     nav ul li {
+        padding: 15px 0;
+    }
+    nav ul li a {
         padding: 15px;
     }
 
     content {
         padding: 1% 15%;
+    }
+
+    content div.introduction .intro-img img {
+        width: 30%;
+        padding: 5px 10px;
     }
 }
 
@@ -152,6 +196,11 @@ nav label {
 
     h1 {
         font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        padding: 0 0 2px 0;
     }
 
     nav {
@@ -230,6 +279,11 @@ nav label {
         padding: 0 10%;
     }
 
+    content p {
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+
     input[type=checkbox]:checked ~ ul {
         max-height: 20em;
     }
@@ -255,5 +309,10 @@ nav label {
         -o-transform: translate(0, 6px) rotate(315deg);
         -moz-transform: translate(0, -6px) rotate(-315deg);
         transform: translate(0, -6px) rotate(-315deg);
+    }
+
+    content div.introduction .intro-img img {
+        width: 30%;
+        padding: 5px 5px;
     }
 }
