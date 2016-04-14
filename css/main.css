@@ -104,9 +104,17 @@ nav ul li:hover {
     background-color: #74AFAD;
 }
 
-nav ul ul {
+nav ul ul  {
+    padding: 0;
     position: absolute;
     left: -9999em;
+}
+
+nav ul ul li {
+    display: block;
+    overflow: hidden;
+    max-height: 0;
+    padding: 0;
 }
 
 content {
@@ -228,7 +236,7 @@ nav label {
 
     nav ul li {
         width: 100%;
-        padding: 10px;
+        padding: 10px 0;
     }
 
     nav ul li:hover {
