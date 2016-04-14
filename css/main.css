@@ -34,8 +34,9 @@ h1 {
 h2 {
     text-align: left;
     font-size: 2.5em;
-    text-shadow: 1px 1px 10px grey;
-    padding: 0 0 10px 0;
+    text-shadow: 1px 1px 10px lightgrey;
+    margin-top: -86px;
+    padding: 126px 0 10px 0;
     border-bottom: 3px solid black;
 }
 
@@ -154,7 +155,9 @@ nav label {
 
     h2 {
         font-size: 2em;
-        padding: 0 0 10px 0;
+        margin-top: -62px;
+        padding: 92px 0 10px 0;
+        border-bottom: 2px solid black;
     }
 
     nav {
@@ -200,7 +203,9 @@ nav label {
 
     h2 {
         font-size: 1.5em;
-        padding: 0 0 2px 0;
+        margin-top: -36px;
+        padding: 66px 0 2px 0;
+        border-bottom: 1px solid black;
     }
 
     nav {
