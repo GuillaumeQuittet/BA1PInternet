@@ -34,7 +34,8 @@ h1 {
 h2 {
     text-align: left;
     font-size: 2.5em;
-    padding: 106px 0 10px 0;
+    text-shadow: 1px 1px 10px grey;
+    padding: 0 0 10px 0;
     border-bottom: 3px solid black;
 }
 
@@ -111,7 +112,6 @@ content {
     padding: 1% 20%;
     line-height: 1.5em;
     word-spacing: .5em;
-    background: url('../img/background.jpg');
 }
 
 content div.introduction {
@@ -154,7 +154,7 @@ nav label {
 
     h2 {
         font-size: 2em;
-        padding: 82px 0 10px 0;
+        padding: 0 0 10px 0;
     }
 
     nav {
@@ -200,7 +200,7 @@ nav label {
 
     h2 {
         font-size: 1.5em;
-        padding: 63px 0 2px 0;
+        padding: 0 0 2px 0;
     }
 
     nav {
