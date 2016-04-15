@@ -133,24 +133,53 @@ content p {
     word-spacing: 0.3em;
 }
 
-content input.name,
-content input.email {
+content div.contact input.name,
+content div.contact input.email {
     display: block;
     width: 50%;
     font-size: 1.3em;
     padding: 10px;
-    margin: 10px;
-    border-radius: 3px;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 1px solid grey;
 }
 
-content textarea.message {
+content div.contact textarea.message {
     display: block;
     width: 50%;
     font-size: 1.3em;
     padding: 10px;
-    margin: 10px;
+    margin: 10px auto;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+content div.contact span.send-button {
+    display: block;
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px auto 50px auto;
+    font-size: 1.3em;
+    background: #fcfcfc;
+    border: 1px solid black;
     border-radius: 3px;
-    overflow: hidden;
+    position: relative;
+    -webkit-transition: transform 0.1s;
+    -moz-transition: transform 0.1s;
+    -o-transition: transform 0.1s;
+    -ms-transition: transform 0.1s;
+    transition: transform 0.1s;
+}
+
+content div.contact span.send-button:hover {
+    background: lightgrey;
+}
+
+content div.contact span.send-button:active {
+    transform: scale(1.2, 1.2);
 }
 
 nav input[type=checkbox],
@@ -310,6 +339,26 @@ nav label {
         line-height: 1.5em;
         font-size: 1em;
         word-spacing: 0.1em;
+    }
+
+    content div.contact input.name,
+    content div.contact input.email {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 1em;
+    }
+
+    content div.contact textarea.message {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    content div.contact span.send-button {
+        display: block;
+        text-align: center;
+        width: 30%;
+        margin: 10px auto;
+        font-size: 1em;
     }
 
     input[type=checkbox]:checked ~ ul {
