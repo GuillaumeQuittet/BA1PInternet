@@ -104,19 +104,6 @@ nav ul li:hover {
     background-color: #74AFAD;
 }
 
-nav ul ul  {
-    padding: 0;
-    position: absolute;
-    left: -9999em;
-}
-
-nav ul ul li {
-    display: block;
-    overflow: hidden;
-    max-height: 0;
-    padding: 0;
-}
-
 content {
     display: block;
     padding: 1% 20%;
@@ -144,6 +131,26 @@ content p {
     text-align: justify;
     line-height: 2em;
     word-spacing: 0.3em;
+}
+
+content input.name,
+content input.email {
+    display: block;
+    width: 50%;
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+content textarea.message {
+    display: block;
+    width: 50%;
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    overflow: hidden;
 }
 
 nav input[type=checkbox],
@@ -191,6 +198,12 @@ nav label {
 
     content {
         padding: 1% 15%;
+    }
+
+    content p {
+        line-height: 1.75em;
+        font-size: 1.2em;
+        word-spacing: 0.2em;
     }
 
     content div.introduction .intro-img img {
@@ -296,6 +309,7 @@ nav label {
     content p {
         line-height: 1.5em;
         font-size: 1em;
+        word-spacing: 0.1em;
     }
 
     input[type=checkbox]:checked ~ ul {
