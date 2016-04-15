@@ -219,7 +219,7 @@ content div.contact textarea.message:focus {
     border-bottom: 2px solid #969696;
 }
 
-content div.contact span.send-button {
+content div.contact a.send-button {
     display: block;
     text-align: center;
     width: 10%;
@@ -238,11 +238,11 @@ content div.contact span.send-button {
     transition: transform 0.1s;
 }
 
-content div.contact span.send-button:hover {
+content div.contact a.send-button:hover {
     background: lightgrey;
 }
 
-content div.contact span.send-button:active {
+content div.contact a.send-button:active {
     -webkit-transform: scale(1.2, 1.2);
     -ms-transform: scale(1.2, 1.2);
     -o-transform: scale(1.2, 1.2);
@@ -322,7 +322,7 @@ nav label {
         width: 100%;
     }
 
-    content div.contact span.send-button {
+    content div.contact a.send-button {
         width: 50%;
     }
 }
@@ -437,7 +437,7 @@ nav label {
         width: 100%;
     }
 
-    content div.contact span.send-button {
+    content div.contact a.send-button {
         display: block;
         text-align: center;
         width: 50%;
