@@ -201,12 +201,13 @@ content div.contact textarea.message {
     display: block;
     width: 50%;
     outline: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
     background: #f8f8f8;
     padding: 10px;
     margin: 20px auto;
     resize: none;
     border: none;
+    font-family: Arial, sans-serif;
     border-bottom: 2px solid #c9c9c9;
     -webkit-transition: border 0.5s;
     -moz-transition: border 0.5s;
@@ -434,6 +435,7 @@ nav label {
     }
 
     content div.contact textarea.message {
+        font-size: 0.9em;
         width: 100%;
     }
 
