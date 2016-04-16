@@ -222,7 +222,7 @@ content div.contact textarea.message:focus {
 content div.contact a.send-button {
     display: block;
     text-align: center;
-    width: 10%;
+    width: 20%;
     padding: 10px;
     cursor: pointer;
     margin: 20px auto 50px auto;
@@ -231,11 +231,11 @@ content div.contact a.send-button {
     border: 1px solid black;
     border-radius: 3px;
     position: relative;
-    -webkit-transition: transform 0.1s;
-    -moz-transition: transform 0.1s;
-    -o-transition: transform 0.1s;
-    -ms-transition: transform 0.1s;
-    transition: transform 0.1s;
+    -webkit-transition: transform 0.05s;
+    -moz-transition: transform 0.05s;
+    -o-transition: transform 0.05s;
+    -ms-transition: transform 0.05s;
+    transition: transform 0.05s;
 }
 
 content div.contact a.send-button:hover {
