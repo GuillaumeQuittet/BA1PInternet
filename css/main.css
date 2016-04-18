@@ -125,10 +125,10 @@ content div.introduction div.intro-img {
 content div.introduction div.intro-img div.circle {
     border-radius: 9999em;
     display: inline-block;
-    height: 200px;
-    margin: 10px 50px;
+    height: 150px;
+    margin: 10px 20px;
     text-align: center;
-    width: 200px;
+    width: 150px;
 }
 
 content div.introduction div.intro-img div.circle {
@@ -165,8 +165,8 @@ content div.introduction div.intro-img div.circle:hover > img {
 
 content div.introduction div img {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 content p {
@@ -256,7 +256,7 @@ nav label {
     display: none;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
     
     header {
         margin: 60px 0 0 0;
@@ -301,7 +301,7 @@ nav label {
     content div.introduction div.intro-img div.circle {
         height: 100px;
         width: 100px;
-        margin: 5px 30px;
+        margin: 5px 10px;
     }
 
     content div.introduction div img {
