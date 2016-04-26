@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Editors: Meilleurs éditeurs de texte pour développeurs ainsi que leurs plugins</title>
+    <!--[if lte IE 8]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('article');
+    document.createElement('section');
+    document.createElement('footer');
+    </script>
+    <![endif]-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="icon" type="image/png" href="img/favicon.png">
+
+
+
 </head>
 <body>
     <header>
@@ -44,7 +57,7 @@
                 <div class="circle">
                     <img src="img/Home3.png" alt="The introduction pic">
                 </div><!-- /circle -->
-            <!-- /intro-img -->
+            </div><!-- /intro-img -->
             <p>Bonjour et bienvenue sur Code Editors. Vous êtes débutant en programmation ou vous cherchez un bon éditeur de texte ? Ce site est fait pour vous !</p>
             <p>Je code depuis longtemps et j'ai testé de nombreux éditeurs de texte très utiles. Je vais donc tirer de mon expérience pour vous en citer les meilleurs ainsi que les plugins qui rendent la programmation beaucoup plus facile et plaisante pour essayer de VOUS aider à trouver le vôtre. Ne soyez pas trop regardant sur le style de ce site car c'est mon tout premier et j'ai une contrainte qui consiste à n'utiliser que du HTML et du CSS.</p>
         </div><!-- /introduction -->
@@ -54,14 +67,16 @@
         </div><!-- /about -->
         <h2 id="Contact">Contact</h2>
         <div class="contact">
-            <input type="text"></input>
-            <input type="text"></input>
-            <textarea class="message" rows="10"></textarea>
-            <a class="send-button">Envoyer</a>
+        <form action="#" type="post">
+            <input type="text" placeholder="Votre nom"></input>
+            <input type="email" placeholder="Votre e-mail"></input>
+            <textarea class="message" rows="10" placeholder="Votre message"></textarea>
+            <input class="send-button" type="submit" value="Envoyer"></input>
+        </form>
         </div><!-- /contact -->
     </content>
     <footer>
-        <!-- pass -->
+        Codé par Guillaume QUITTET en avril 2016
     </footer>
 </body>
 </html>

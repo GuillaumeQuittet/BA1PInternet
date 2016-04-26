@@ -1,8 +1,11 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    overflow-y: scroll;
     background-color: #ebebeb;
 }
 
@@ -15,8 +18,8 @@ body {
 }
 
 header {
-    margin: 82px 0 0 0;
-    padding: 15px;
+    margin: 70px 0 0 0;
+    padding: 1px;
     background-color: #74AFAD;
     color: white;
     -webkit-box-shadow: 1px 1px 10px #558C89;
@@ -37,7 +40,7 @@ h2 {
     font-size: 2.5em;
     text-shadow: 1px 1px 10px grey;
     margin-top: -86px;
-    padding: 126px 0 10px 0;
+    padding: 100px 0 10px 0;
     border-bottom: 3px solid black;
 }
 
@@ -74,7 +77,7 @@ nav span.site-name {
 nav ul {
     display: inline-block;
     margin: 0 auto;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
     -webkit-transition: max-height 0.8s;
     -moz-transition: max-height 0.8s;
@@ -114,21 +117,21 @@ content {
 
 content div.introduction {
     display: block;
+    text-align: center;
 }
 
 content div.introduction div.intro-img {
     display: inline-block;
-    text-align: center;
 }
 
 /* MAKE CIRCLE */
 content div.introduction div.intro-img div.circle {
     border-radius: 9999em;
     display: inline-block;
-    height: 150px;
-    margin: 10px 20px;
+    height: 100px;
+    margin: 5px 20px;
     text-align: center;
-    width: 150px;
+    width: 100px;
 }
 
 content div.introduction div.intro-img div.circle {
@@ -165,8 +168,8 @@ content div.introduction div.intro-img div.circle:hover > img {
 
 content div.introduction div img {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 content p {
@@ -176,7 +179,8 @@ content p {
     word-spacing: 0.3em;
 }
 
-content div.contact input[type="text"] {
+content div.contact input[type="text"],
+content div.contact input[type="email"] {
     display: block;
     width: 50%;
     font-size: 1.3em;
@@ -192,7 +196,8 @@ content div.contact input[type="text"] {
     transition: border 0.5s;
 }
 
-content div.contact input[type="text"]:focus {
+content div.contact input[type="text"]:focus,
+content div.contact input[type="email"]:focus {
     outline: none;
     border-bottom: 2px solid #969696;
 }
@@ -220,13 +225,13 @@ content div.contact textarea.message:focus {
     border-bottom: 2px solid #969696;
 }
 
-content div.contact a.send-button {
+content div.contact .send-button {
     display: block;
     text-align: center;
     width: 20%;
     padding: 10px;
     cursor: pointer;
-    margin: 20px auto 50px auto;
+    margin: 20px auto;
     font-size: 1.3em;
     background: #fcfcfc;
     border: 1px solid black;
@@ -239,16 +244,29 @@ content div.contact a.send-button {
     transition: transform 0.05s;
 }
 
-content div.contact a.send-button:hover {
+content div.contact .send-button:hover {
     background: lightgrey;
 }
 
-content div.contact a.send-button:active {
+content div.contact .send-button:active {
     -webkit-transform: scale(1.2, 1.2);
     -ms-transform: scale(1.2, 1.2);
     -o-transform: scale(1.2, 1.2);
     -moz-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2);
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 10px #666;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.1em;
 }
 
 nav input[type=checkbox],
@@ -266,7 +284,7 @@ content .choice-menu {
 
 content .choice-menu div {
     display: inline-block;
-    margin: 2% 2%;
+    margin: 5% 2%;
     width: 40%;
     height: 40%;
     box-shadow: 1px 1px 10px black;
@@ -349,14 +367,14 @@ content .choice-menu div a {
     }
 
     content div.introduction div.intro-img div.circle {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
         margin: 5px 10px;
     }
 
     content div.introduction div img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     content p {
@@ -365,16 +383,22 @@ content .choice-menu div a {
         word-spacing: 0.2em;
     }
 
-    content div.contact input[type="text"] {
-        width: 100%;
+    content div.contact input[type="text"], 
+    content div.contact input[type="email"] {
+        width: 75%;
     }
 
     content div.contact textarea.message {
-        width: 100%;
+        width: 75%;
     }
 
-    content div.contact a.send-button {
+    content div.contact .send-button {
         width: 50%;
+    }
+
+    footer {
+        padding: 15px;
+        font-size: 1em;
     }
 }
 
@@ -478,7 +502,8 @@ content .choice-menu div a {
         word-spacing: 0.1em;
     }
 
-    content div.contact input[type="text"] {
+    content div.contact input[type="text"],
+    content div.contact input[type="email"] {
         width: 100%;
         margin: 10px auto;
         font-size: 1em;
@@ -489,7 +514,7 @@ content .choice-menu div a {
         width: 100%;
     }
 
-    content div.contact a.send-button {
+    content div.contact .send-button {
         display: block;
         text-align: center;
         width: 50%;
@@ -532,5 +557,10 @@ content .choice-menu div a {
     content div.introduction div img {
         width: 60px;
         height: 60px;
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 0.8em;
     }
 }
