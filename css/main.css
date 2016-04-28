@@ -179,6 +179,28 @@ content p {
     word-spacing: 0.3em;
 }
 
+ul.criteres {
+    line-height: 2em;
+    word-spacing: 0.3em;   
+    text-align: left;
+    list-style-type: lower-alpha;
+}
+
+content div.editor-image img {
+    width: 50%;
+    margin: 1em 1em 1em 0;
+    float: left;
+}
+
+content p a {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+content p.editor-url {
+    text-align: center;
+}
+
 content div.contact input[type="text"],
 content div.contact input[type="email"] {
     display: block;
@@ -267,6 +289,20 @@ footer {
     width: 100%;
     padding: 20px;
     font-size: 1.1em;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1em 0 0;
+}
+
+footer div.license {
+    font-size: 0.7em;
 }
 
 nav input[type=checkbox],
@@ -381,6 +417,11 @@ content .choice-menu div a {
         line-height: 1.75em;
         font-size: 1.2em;
         word-spacing: 0.2em;
+    }
+
+    content div.editor-image img {
+        float: none;
+        width: 100%;
     }
 
     content div.contact input[type="text"], 
@@ -564,3 +605,25 @@ content .choice-menu div a {
         font-size: 0.8em;
     }
 }
+
+.clearfix {
+    display: inline-block;
+}
+ 
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+ 
+/* Hides from IE-mac */
+* html .clearfix {
+    height: 1%;
+}
+ 
+.clearfix {
+    display: block;
+}
+/* End hide from IE-mac */
