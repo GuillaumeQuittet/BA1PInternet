@@ -179,11 +179,13 @@ content p {
     word-spacing: 0.3em;
 }
 
-ul.criteres {
+ul.criteres,
+ul.citations {
     line-height: 2em;
     word-spacing: 0.3em;   
     text-align: left;
     list-style-type: lower-alpha;
+    font-size: 1.2em;
 }
 
 content div.editor-image img {
@@ -325,7 +327,6 @@ content .choice-menu div {
     height: 40%;
     box-shadow: 1px 1px 10px black;
     border-radius: 5%;
-    background: #74AFAD;
     color: white;
     text-shadow: 1px 1px 10px #1b2c2b;
     -webkit-transition: background .5s;
@@ -335,8 +336,20 @@ content .choice-menu div {
             transition: background .5s;
 }
 
-content .choice-menu div:hover {
-    background: #af7476;
+content .choice-menu div.editors {
+    background: #204060;
+}
+
+content .choice-menu div.plugins {
+    background: #b30000;
+}
+
+content .choice-menu div.editors:hover {
+    background: #336699;
+}
+
+content .choice-menu div.plugins:hover {
+    background: #ff0000;
 }
 
 content .choice-menu div a:hover {
@@ -419,9 +432,19 @@ content .choice-menu div a {
         word-spacing: 0.2em;
     }
 
+    ul.criteres,
+    ul.citations {
+    line-height: 1.75em;
+    word-spacing: 0.2em;   
+    text-align: left;
+    list-style-type: lower-alpha;
+    font-size: 1.1em;
+    }
+
     content div.editor-image img {
         float: none;
         width: 100%;
+        margin: 0;
     }
 
     content div.contact input[type="text"], 
@@ -439,7 +462,7 @@ content .choice-menu div a {
 
     footer {
         padding: 15px;
-        font-size: 1em;
+        font-size: 0.8em;
     }
 }
 
@@ -543,6 +566,15 @@ content .choice-menu div a {
         word-spacing: 0.1em;
     }
 
+    ul.criteres,
+    ul.citations {
+    line-height: 1.5em;
+    word-spacing: 0.1em;   
+    text-align: left;
+    list-style-type: lower-alpha;
+    font-size: 0.9em;
+    }
+
     content div.contact input[type="text"],
     content div.contact input[type="email"] {
         width: 100%;
@@ -602,7 +634,11 @@ content .choice-menu div a {
 
     footer {
         padding: 10px;
-        font-size: 0.8em;
+        font-size: 0.6em;
+    }
+
+    footer div.license {
+        font-size: 4px;
     }
 }
 
