@@ -377,7 +377,7 @@ content .choice-menu div a:hover {
 content .choice-menu div a {
     display: block;
     padding: 40% 20%;
-    font-size: 4vw;
+    font-size: 3vw;
     -webkit-transition: transform .5s;
        -moz-transition: transform .5s;
         -ms-transition: transform .5s;
@@ -444,6 +444,11 @@ content .choice-menu div a {
         line-height: 1.75em;
         font-size: 1.2em;
         word-spacing: 0.2em;
+    }
+
+    content .choice-menu div a {
+        padding: 40% 20%;
+        font-size: 4vw;
     }
 
     ul.criteres,
@@ -584,6 +589,11 @@ content .choice-menu div a {
         line-height: 1.5em;
         font-size: 1em;
         word-spacing: 0.1em;
+    }
+
+    content .choice-menu div a {
+        padding: 40% 20%;
+        font-size: 5vw;
     }
 
     ul.criteres,
