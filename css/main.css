@@ -614,6 +614,7 @@ content .choice-menu div a {
     }
 
     content .choice-menu div a {
+        padding: 15% 20%;
         font-size: 5vw;
     }
 
