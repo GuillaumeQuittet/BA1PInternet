@@ -347,7 +347,7 @@ content .choice-menu {
 
 content .choice-menu div {
     display: inline-block;
-    margin: 5% 2%;
+    margin: 2% 2% 10% 2%;
     width: 40%;
     height: 10%;
     box-shadow: 1px 1px 10px black;
@@ -403,7 +403,7 @@ content .choice-menu div a:hover {
 
 content .choice-menu div a {
     display: block;
-    padding: 15% 25%;
+    padding: 15% 27.5%;
     font-size: 3vw;
     -webkit-transition: transform .5s;
        -moz-transition: transform .5s;
@@ -517,9 +517,8 @@ content .choice-menu div a {
         font-size: 0.8em;
     }
 
-    footer a img {
-        width: 90%;
-        height: 90%;
+    footer p a {
+        width: 100px;
     }
 
     footer div.license {
@@ -565,16 +564,14 @@ content .choice-menu div a {
     nav ul li {
         width: 100%;
         padding: 10px 0;
+        border-radius: 0;
     }
 
     nav ul li a {
         display: block;
         width: 100%;
         padding: .5% 3%;
-    }
-
-    nav ul li:hover {
-        background-color: #558C89;
+        border-radius: 0;
     }
 
     nav label {
@@ -710,10 +707,9 @@ content .choice-menu div a {
         padding: 10px;
         font-size: 0.6em;
     }
-    
-    footer a img {
-        width: 50%;
-        height: 50%;
+
+    footer p a {
+        width: 80px;
     }
 
     footer div.license {
