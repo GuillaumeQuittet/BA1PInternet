@@ -155,20 +155,20 @@ content div.introduction div.intro-img div.circle:hover {
 
 /* CIRCLE ANIMATION */
 content div.introduction div.intro-img div.circle > img {
-    -webkit-transition: transform 0.4s;
-    -moz-transition: transform 0.4s;
-    -o-transition: transform 0.4s;
-    -ms-transition: transform 0.4s;
-    transition: transform 0.4s;
+    -webkit-transition: transform 0.8s;
+    -moz-transition: transform 0.8s;
+    -o-transition: transform 0.8s;
+    -ms-transition: transform 0.8s;
+    transition: transform 0.8s;
     transform: scale(1, 1) rotate(-360deg);
 }
 
 content div.introduction div.intro-img div.circle:hover > img {
-    -webkit-transition: transform 0.4s;
-    -moz-transition: transform 0.4s;
-    -o-transition: transform 0.4s;
-    -ms-transition: transform 0.4s;
-    transition: transform 0.4s;
+    -webkit-transition: transform 0.8s;
+    -moz-transition: transform 0.8s;
+    -o-transition: transform 0.8s;
+    -ms-transition: transform 0.8s;
+    transition: transform 0.8s;
     transform: scale(1.2, 1.2) rotate(360deg);
 }
 
