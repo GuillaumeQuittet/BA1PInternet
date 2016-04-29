@@ -567,6 +567,12 @@ content .choice-menu div a {
         padding: 10px 0;
     }
 
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: .5% 3%;
+    }
+
     nav ul li:hover {
         background-color: #558C89;
     }
@@ -574,10 +580,6 @@ content .choice-menu div a {
     nav label {
         display: block;
         width: 100%;
-        -webkit-box-sizing: border-box;
-        -o-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
         padding: 10px;
         background-color: #385c5a;
         font-weight: bold;
@@ -708,10 +710,10 @@ content .choice-menu div a {
         padding: 10px;
         font-size: 0.6em;
     }
-
+    
     footer a img {
-        width: 75%;
-        height: 75%;
+        width: 50%;
+        height: 50%;
     }
 
     footer div.license {
