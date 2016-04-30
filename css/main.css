@@ -121,6 +121,10 @@ nav ul li:hover {
     word-spacing: .5em;
 }
 
+#content #favicon {
+    display: none;
+}
+
 #content div.introduction {
     display: block;
     text-align: center;
