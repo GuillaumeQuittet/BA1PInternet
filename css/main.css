@@ -114,24 +114,24 @@ nav ul li:hover {
     background-color: #74AFAD;
 }
 
-content {
+#content {
     display: block;
     padding: 1% 20%;
     line-height: 1.5em;
     word-spacing: .5em;
 }
 
-content div.introduction {
+#content div.introduction {
     display: block;
     text-align: center;
 }
 
-content div.introduction div.intro-img {
+#content div.introduction div.intro-img {
     display: inline-block;
 }
 
 /* MAKE CIRCLE */
-content div.introduction div.intro-img div.circle {
+#content div.introduction div.intro-img div.circle {
     border-radius: 9999em;
     display: inline-block;
     height: 100px;
@@ -140,7 +140,7 @@ content div.introduction div.intro-img div.circle {
     width: 100px;
 }
 
-content div.introduction div.intro-img div.circle {
+#content div.introduction div.intro-img div.circle {
     -webkit-transition: background 0.4s;
     -moz-transition: background 0.4s;
     -o-transition: background 0.4s;
@@ -149,12 +149,12 @@ content div.introduction div.intro-img div.circle {
     background: #74AFAD;
 }
 
-content div.introduction div.intro-img div.circle:hover {
+#content div.introduction div.intro-img div.circle:hover {
     background-color: #af7476;
 }
 
 /* CIRCLE ANIMATION */
-content div.introduction div.intro-img div.circle > img {
+#content div.introduction div.intro-img div.circle > img {
     -webkit-transition: transform 0.8s;
     -moz-transition: transform 0.8s;
     -o-transition: transform 0.8s;
@@ -163,7 +163,7 @@ content div.introduction div.intro-img div.circle > img {
     transform: scale(1, 1) rotate(-360deg);
 }
 
-content div.introduction div.intro-img div.circle:hover > img {
+#content div.introduction div.intro-img div.circle:hover > img {
     -webkit-transition: transform 0.8s;
     -moz-transition: transform 0.8s;
     -o-transition: transform 0.8s;
@@ -172,13 +172,13 @@ content div.introduction div.intro-img div.circle:hover > img {
     transform: scale(1.2, 1.2) rotate(360deg);
 }
 
-content div.introduction div img {
+#content div.introduction div img {
     position: relative;
     width: 100px;
     height: 100px;
 }
 
-content p {
+#content p {
     font-size: 1.3em;
     text-align: justify;
     line-height: 2em;
@@ -208,23 +208,23 @@ ul.plugins-list li:before {
     margin-left: -1.5em;
 }
 
-content div.editor-image img {
+#content div.editor-image img {
     width: 50%;
     margin: 1em 1em 1em 0;
     float: left;
 }
 
-content p a {
+#content p a {
     text-decoration: underline;
     font-style: italic;
 }
 
-content p.editor-url {
+#content p.editor-url {
     text-align: center;
 }
 
-content div.contact input[type="text"],
-content div.contact input[type="email"] {
+#content div.contact input[type="text"],
+#content div.contact input[type="email"] {
     display: block;
     width: 50%;
     font-size: 1.3em;
@@ -240,13 +240,13 @@ content div.contact input[type="email"] {
     transition: border 0.5s;
 }
 
-content div.contact input[type="text"]:focus,
-content div.contact input[type="email"]:focus {
+#content div.contact input[type="text"]:focus,
+#content div.contact input[type="email"]:focus {
     outline: none;
     border-bottom: 2px solid #969696;
 }
 
-content div.contact textarea.message {
+#content div.contact textarea.message {
     display: block;
     width: 50%;
     outline: none;
@@ -265,11 +265,11 @@ content div.contact textarea.message {
     transition: border 0.5s;
 }
 
-content div.contact textarea.message:focus {
+#content div.contact textarea.message:focus {
     border-bottom: 2px solid #969696;
 }
 
-content div.contact .send-button {
+#content div.contact .send-button {
     display: block;
     text-align: center;
     width: 20%;
@@ -288,11 +288,11 @@ content div.contact .send-button {
     transition: transform 0.05s;
 }
 
-content div.contact .send-button:hover {
+#content div.contact .send-button:hover {
     background: lightgrey;
 }
 
-content div.contact .send-button:active {
+#content div.contact .send-button:active {
     -webkit-transform: scale(1.2, 1.2);
     -ms-transform: scale(1.2, 1.2);
     -o-transform: scale(1.2, 1.2);
@@ -339,13 +339,13 @@ nav label {
 
 /* categries.html */
 
-content .choice-menu {
+#content .choice-menu {
     display: block;
     margin: 0 auto;
     text-align: center;
 }
 
-content .choice-menu div {
+#content .choice-menu div {
     display: inline-block;
     margin: 2% 2% 10% 2%;
     width: 40%;
@@ -361,7 +361,7 @@ content .choice-menu div {
             transition: background .5s;
 }
 
-content .choice-menu div.editors {
+#content .choice-menu div.editors {
     background-image: -webkit-linear-gradient(top, #2d5986, #204060);
     background-image: -moz-linear-gradient(top, #2d5986, #204060);
     background-image: -ms-linear-gradient(top, #2d5986, #204060);
@@ -369,7 +369,7 @@ content .choice-menu div.editors {
     background-image: linear-gradient(to bottom, #2d5986, #204060);
 }
 
-content .choice-menu div.plugins {
+#content .choice-menu div.plugins {
     background-image: -webkit-linear-gradient(top, #cc0000, #b30000);
     background-image: -moz-linear-gradient(top, #cc0000, #b30000);
     background-image: -ms-linear-gradient(top, #cc0000, #b30000);
@@ -377,7 +377,7 @@ content .choice-menu div.plugins {
     background-image: linear-gradient(to bottom, #cc0000, #b30000);
 }
 
-content .choice-menu div.editors:hover {
+#content .choice-menu div.editors:hover {
     background-image: -webkit-linear-gradient(top, #336699, #2d5986);
     background-image: -moz-linear-gradient(top, #336699, #2d5986);
     background-image: -ms-linear-gradient(top, #336699, #2d5986);
@@ -385,7 +385,7 @@ content .choice-menu div.editors:hover {
     background-image: linear-gradient(to bottom, #336699, #2d5986);
 }
 
-content .choice-menu div.plugins:hover {
+#content .choice-menu div.plugins:hover {
     background-image: -webkit-linear-gradient(top, #ff0000, #e60000);
     background-image: -moz-linear-gradient(top, #ff0000, #e60000);
     background-image: -ms-linear-gradient(top, #ff0000, #e60000);
@@ -393,7 +393,7 @@ content .choice-menu div.plugins:hover {
     background-image: linear-gradient(to bottom, #ff0000, #e60000);
 }
 
-content .choice-menu div a:hover {
+#content .choice-menu div a:hover {
     -webkit-transform: scale(1.2);
        -moz-transform: scale(1.2);
         -ms-transform: scale(1.2);
@@ -401,7 +401,7 @@ content .choice-menu div a:hover {
             transform: scale(1.2);
 }
 
-content .choice-menu div a {
+#content .choice-menu div a {
     display: block;
     padding: 15% 27.5%;
     font-size: 3vw;
@@ -452,28 +452,28 @@ content .choice-menu div a {
         padding: 15px;
     }
 
-    content {
+    #content {
         padding: 1% 15%;
     }
 
-    content div.introduction div.intro-img div.circle {
+    #content div.introduction div.intro-img div.circle {
         height: 80px;
         width: 80px;
         margin: 5px 10px;
     }
 
-    content div.introduction div img {
+    #content div.introduction div img {
         width: 80px;
         height: 80px;
     }
 
-    content p {
+    #content p {
         line-height: 1.75em;
         font-size: 1.2em;
         word-spacing: 0.2em;
     }
 
-    content .choice-menu div a {
+    #content .choice-menu div a {
         padding: 15% 25%;
         font-size: 4vw;
     }
@@ -493,22 +493,22 @@ content .choice-menu div a {
         list-style-type: none;
     }
 
-    content div.editor-image img {
+    #content div.editor-image img {
         float: none;
         width: 100%;
         margin: 0;
     }
 
-    content div.contact input[type="text"], 
-    content div.contact input[type="email"] {
+    #content div.contact input[type="text"], 
+    #content div.contact input[type="email"] {
         width: 75%;
     }
 
-    content div.contact textarea.message {
+    #content div.contact textarea.message {
         width: 75%;
     }
 
-    content div.contact .send-button {
+    #content div.contact .send-button {
         width: 50%;
     }
 
@@ -616,17 +616,17 @@ content .choice-menu div a {
         left: 5px;
     }
 
-    content {
+    #content {
         padding: 0 10%;
     }
 
-    content p {
+    #content p {
         line-height: 1.5em;
         font-size: 1em;
         word-spacing: 0.1em;
     }
 
-    content .choice-menu div a {
+    #content .choice-menu div a {
         padding: 15% 20%;
         font-size: 5vw;
     }
@@ -646,19 +646,19 @@ content .choice-menu div a {
         list-style-type: none;
     }
 
-    content div.contact input[type="text"],
-    content div.contact input[type="email"] {
+    #content div.contact input[type="text"],
+    #content div.contact input[type="email"] {
         width: 100%;
         margin: 10px auto;
         font-size: 1em;
     }
 
-    content div.contact textarea.message {
+    #content div.contact textarea.message {
         font-size: 0.9em;
         width: 100%;
     }
 
-    content div.contact .send-button {
+    #content div.contact .send-button {
         display: block;
         text-align: center;
         width: 50%;
@@ -692,13 +692,13 @@ content .choice-menu div a {
         transform: translate(0, -6px) rotate(-315deg);
     }
 
-    content div.introduction div.intro-img div.circle {
+    #content div.introduction div.intro-img div.circle {
         height: 60px;
         width: 60px;
         margin: 5px 5px;
     }
 
-    content div.introduction div img {
+    #content div.introduction div img {
         width: 60px;
         height: 60px;
     }
@@ -722,7 +722,7 @@ content .choice-menu div a {
 }
  
 .clearfix:after {
-    content: ".";
+    #content: ".";
     display: block;
     height: 0;
     clear: both;
