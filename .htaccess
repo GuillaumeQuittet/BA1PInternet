@@ -1,6 +1,7 @@
 RewriteBase /
 Options +FollowSymlinks
 RewriteEngine on
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 RewriteCond %{REQUEST_FILENAME} !-f
