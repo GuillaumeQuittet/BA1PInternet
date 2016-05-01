@@ -227,7 +227,7 @@ ul.plugins-list li:before {
     text-align: center;
 }
 
-#content div.contact input[type="text"],
+#content div.contact input,
 #content div.contact input[type="email"] {
     display: block;
     width: 50%;
@@ -244,7 +244,7 @@ ul.plugins-list li:before {
     transition: border 0.5s;
 }
 
-#content div.contact input[type="text"]:focus,
+#content div.contact input:focus,
 #content div.contact input[type="email"]:focus {
     outline: none;
     border-bottom: 2px solid #969696;
@@ -366,6 +366,7 @@ nav label {
 }
 
 #content .choice-menu div.editors {
+    background: #204060;
     background-image: -webkit-linear-gradient(top, #2d5986, #204060);
     background-image: -moz-linear-gradient(top, #2d5986, #204060);
     background-image: -ms-linear-gradient(top, #2d5986, #204060);
@@ -374,6 +375,7 @@ nav label {
 }
 
 #content .choice-menu div.plugins {
+    background: #b30000;
     background-image: -webkit-linear-gradient(top, #cc0000, #b30000);
     background-image: -moz-linear-gradient(top, #cc0000, #b30000);
     background-image: -ms-linear-gradient(top, #cc0000, #b30000);
@@ -382,6 +384,7 @@ nav label {
 }
 
 #content .choice-menu div.editors:hover {
+    background: #2d5986;
     background-image: -webkit-linear-gradient(top, #336699, #2d5986);
     background-image: -moz-linear-gradient(top, #336699, #2d5986);
     background-image: -ms-linear-gradient(top, #336699, #2d5986);
@@ -390,6 +393,7 @@ nav label {
 }
 
 #content .choice-menu div.plugins:hover {
+    background: #e60000;
     background-image: -webkit-linear-gradient(top, #ff0000, #e60000);
     background-image: -moz-linear-gradient(top, #ff0000, #e60000);
     background-image: -ms-linear-gradient(top, #ff0000, #e60000);
@@ -503,7 +507,7 @@ nav label {
         margin: 0;
     }
 
-    #content div.contact input[type="text"], 
+    #content div.contact input, 
     #content div.contact input[type="email"] {
         width: 75%;
     }
@@ -650,7 +654,7 @@ nav label {
         list-style-type: none;
     }
 
-    #content div.contact input[type="text"],
+    #content div.contact input,
     #content div.contact input[type="email"] {
         width: 100%;
         margin: 10px auto;
