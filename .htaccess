@@ -1,7 +1,29 @@
+# Options to work with
 RewriteBase /
 Options +FollowSymlinks
-RewriteEngine on
-SetOutputFilter DEFLATE
-AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+Options +MultiViews
+
+# Enable compression
+<IfModule mod_deflate.c>
+    <IfModule mod_filter.c>
+        # these are known to be safe with MSIE 6
+        AddOutputFilterByType DEFLATE text/html text/plain text/xml
+
+        # everything else may cause problems with MSIE 6
+        AddOutputFilterByType DEFLATE text/css
+        AddOutputFilterByType DEFLATE application/x-javascript application/javascript application/ecmascript
+        AddOutputFilterByType DEFLATE application/rss+xml
+        AddOutputFilterByType DEFLATE application/xml
+    </IfModule>
+</IfModule>
+
+# Enable URL rewriting
+RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# Error page
+ErrorDocument 400 http://code-editors.com
+ErrorDocument 401 http://code-editors.com
+ErrorDocument 403 http://code-editors.com
+ErrorDocument 404 http://code-editors.com
